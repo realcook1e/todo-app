@@ -1,0 +1,45 @@
+.TaskItem {
+	width: 100%;
+	padding: 20px;
+	transition: 0.4s all;
+	border: 1px solid;
+	border-radius: 5px;
+}
+
+.TaskItem__notstarted {
+	background-color: #fbdad9;
+	border-color: #e7b6b5;
+}
+
+.TaskItem__inprogress {
+	background-color: #fff1cd;
+	border-color: #e7d3a1;
+}
+
+.TaskItem__completed {
+	background-color: #c9dcd7;
+	border-color: #8fbeb3;
+}
+
+.TaskItem-header {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #b3aeae;
+}
+
+.TaskItem-title {
+	font-size: 26px;
+}
+
+.TaskItem-controls {
+	margin-top: 10px;
+}
+
+.TaskItem-delete {
+	background: transparent;
+	font-size: 24px;
+	border: none;
+	cursor: pointer;
+	color: rgb(182, 33, 33);
+}

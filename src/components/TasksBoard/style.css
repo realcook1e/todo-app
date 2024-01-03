@@ -1,0 +1,13 @@
+.TasksBoard {
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 20px;
+}
+
+.TasksBoard-empty {
+	font-size: 32px;
+	font-weight: 700;
+	margin: 60px 50px;
+}
